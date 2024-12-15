@@ -79,7 +79,7 @@ export default async function FormDetailsPage({
           title="Submissions Rate"
           icon={<MousePointerClick className="h-6 w-6" />}
           text="Visits that resulted in a submissions"
-          value={submissionsRate.toLocaleString() + '%' ?? '0'}
+          value={submissionsRate.toLocaleString() + '%'}
           loading={false}
           className="shadow-green-500 drop-shadow-md"
         />
@@ -87,7 +87,7 @@ export default async function FormDetailsPage({
           title="Bounce Rate"
           icon={<LogOut className="h-6 w-6" />}
           text="Visits that leave without submitting"
-          value={bounceRate.toLocaleString() + '%' ?? '0'}
+          value={bounceRate.toLocaleString() + '%'}
           loading={false}
           className="shadow-rose-500 drop-shadow-md"
         />

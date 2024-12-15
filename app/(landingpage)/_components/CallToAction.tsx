@@ -16,7 +16,7 @@ export default function CallToAction() {
           ))}
         </h2>
         <p className='mt-4 text-muted-foreground'>
-          Next Form is open source and available on Github.
+          DragnDrop is open source and available on Github.
         </p>
         <Button
           asChild
@@ -24,7 +24,7 @@ export default function CallToAction() {
           size={'lg'}
           variant={'outline'}
           className='mt-4'>
-          <Link href={'https://github.com/aafrzl/next-form'} target='_blank'>
+          <Link href={'https://github.com/SharkyBytes/DragnDrop'} target='_blank'>
             Github Repo
           </Link>
         </Button>

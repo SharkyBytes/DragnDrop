@@ -30,7 +30,7 @@ export default function StatsCard({ data, loading }: Props) {
         title="Submissions Rate"
         icon={<MousePointerClick className='h-6 w-6' />}
         text="Visits that resulted in a submissions"
-        value={data?.submissionsRate.toLocaleString() + '%' ?? '0'}
+        value={data?.submissionsRate.toLocaleString() + '%' }
         loading={loading}
         className='shadow-green-500 drop-shadow-md'
       />
@@ -38,10 +38,11 @@ export default function StatsCard({ data, loading }: Props) {
         title="Bounce Rate"
         icon={<LogOut className='h-6 w-6' />}
         text="Visits that leave without submitting"
-        value={data?.bounceRate.toLocaleString() + '%' ?? '0'}
+        value={data?.bounceRate.toLocaleString() + '%' }
         loading={loading}
         className='shadow-rose-500 drop-shadow-md'
       />
     </div>
   );
 }
+

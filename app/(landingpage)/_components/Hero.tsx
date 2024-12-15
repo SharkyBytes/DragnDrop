@@ -49,7 +49,7 @@ export default function Hero() {
             </Button>
           )}
           <Button asChild variant={'outline'}>
-            <Link href={'https://github.com/aafrzl/next-form'} target='_blank'>
+            <Link href={'https://github.com/SharkyBytes/DragnDrop'} target='_blank'>
               <Github className='mr-2 h-5 w-5' />
               Star on Github
             </Link>
